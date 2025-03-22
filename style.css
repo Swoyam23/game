@@ -1,0 +1,22 @@
+.snitch {
+  /* Add fallback if image missing */
+  background-color: #ffd700;
+  border-radius: 50%;
+  display: none; /* Hidden by default */
+}
+
+.snitch::after {
+  content: "🦋"; /* Fallback emoji */
+  font-size: 40px;
+  position: absolute;
+}
+
+#gameArea {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #1a1a40;
+  border: 2px solid #f0e68c;
+  overflow: hidden;
+}
